@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix:after{
+    clear:both;
+    content: "";
+    display: block;
+}
+.pull-left{
+   float: left; 
+}
+.pull-right{
+    float: right;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.section-bottom-margin{
+    margin-bottom: 60px;
+}
+li{
+    display: inline;
+}
+/*===============================================================================================================================
+                                Navigation Bar
+===============================================================================================================================*/
+#navigation-bar{
+    
+}
+nav{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(0,0,0);
+    top: 0;
+    left:0;
+    z-index: 99999;
+    
+}
+
+.left-part-logo{
+    width: 20%;
+    letter-spacing: 0.2em;
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+     
+}
+ .right-part-navigation{
+    width: 80%;
+   
+}
+ .right-part-navigation .navigation-unordered-list li {
+    
+    margin-right: 6px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 70px;
+    font-size: 1.3em;
+}
+.right-part-navigation .navigation-unordered-list li a, .right-part-navigation .navigation-unordered-list li span{
+    color: #fff;
+    font-weight: 500;
+}
+.right-part-navigation .navigation-unordered-list li a:hover{
+    color:#fbd54a;
+}
+.right-part-navigation .navigation-unordered-list li a:active{
+    color: #fbd54a;
+}
+/*===============================================================================================================================
+                                Buttons
+===============================================================================================================================*/
+.button{
+/*    margin-top: 100px;*/
+   
+}
+.white-btn {
+    
+    font-size: 0.5em;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 10px;
+}
+.white-btn:hover{
+    background: #fff;
+    color: #333;
+}
+.yellow-btn {
+    
+    font-size: 0.5em;
+    text-decoration: none;
+    border: solid 1px #fbd54a;
+    color: #fbd54a;
+    padding: 10px;
+}
+.yellow-btn:hover{
+    background:#fbd54a ;
+    color: #333;
+}
+.top-btn{
+    padding: 40px 10px 20px 10px;
+}
+/*===============================================================================================================================
+                                Headings
+===============================================================================================================================*/
+.section-heading{
+    text-align: center;
+   margin-bottom:40px;
+    letter-spacing: 0.12em;
+    font-family: 'Roboto', sans-serif;
+}
+.section-heading h3{
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 2em
+}
+.underline{
+    width: 100px;
+    height: 8px;
+    border-radius: 5px;
+    background: #fbd54a ;
+    margin: 0 auto;
+    
+}
+/*===============================================================================================================================
+                                Footer
+===============================================================================================================================*/
+.footer{
+    background: #000;
+    
+}
+
+.footer-navigation{
+padding: 40px 20px;
+width: 40%;
+color: #eee;
+
+}
+.footer-navigation ul li{
+    margin-right: 5px;
+}
+.footer-navigation ul li a{
+    color: #eee;
+    margin-right: 5px;
+}
+.footer-navigation ul li a:hover{
+    color:#fbd54a ;
+}
+.copyright-section{
+    padding: 40px 10px 40px 180px;
+    width: 30%;
+    color: #eee;
+}
+
+

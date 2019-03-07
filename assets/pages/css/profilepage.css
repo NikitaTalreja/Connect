@@ -1,0 +1,144 @@
+body{
+    background: rgb(241, 241, 241);
+}
+.profile-section{
+    width: 97%;
+    margin: 2% auto;
+    
+}
+.profile-description{
+   width: 33%;
+   margin-right: 2%;
+   -webkit-box-shadow: 2px 2px 10px 2px rgba(117,117,117,0.6);
+           box-shadow: 2px 2px 10px 2px rgba(117,117,117,0.6);
+   background: #fff;
+   position: fixed;
+    padding-bottom: 2%;
+}
+
+.user-posts{
+    width: 65%;
+/*    background: #fff;*/
+    margin-left: 35%;
+   
+    
+}
+.user-image{
+    position: relative;
+}
+.user-image img{
+    width: 100%;
+}
+.user-name{
+    position: absolute;
+    top:80%;
+    left:3%;
+}
+.user-name h3{
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.user-details ul{
+    padding: 4% 0;
+   
+}
+.user-details-inner{
+/*    display: block;*/
+    margin-bottom: 4%;
+    
+    padding-left: 4%;
+}
+.user-detail-icons{
+    font-size: 1.2em;
+    color: #fbd54a;
+    margin-right: 2%;
+}
+.user-details-inner span{
+    font-size: 1.2em;
+    color: #555;
+}
+.myprofile-btn{
+    font-size: 1.2em;
+/*    text-align: center;*/
+    margin: 0 30% ;
+}
+.posts{
+/*    height: 500px;*/
+    background: #fff;
+    padding-bottom: 3%;
+    -webkit-box-shadow: 2px 2px 10px 2px rgba(117,117,117,0.6);
+            box-shadow: 2px 2px 10px 2px rgba(117,117,117,0.6);
+    margin: 2% 0;
+}
+.post-image-name{
+/*    width: 35%;*/
+/*    margin-right: 20%;*/
+    padding: 3% 0 3% 4%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.post-image-name img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.post-image-name h3{
+    display: inline;
+    padding-top: -40px;
+}
+.post-user-name{
+    width: 15%;
+   margin-right: 30%;
+    padding: 6% 1%;
+    color: #777;
+    font-weight: 300;  
+    font-size: 1.3em;
+}
+.time{
+    width: 40%;
+    padding: 7% 0 6% 0;  
+    -webkit-box-sizing: border-box;  
+            box-sizing: border-box;
+}
+footer{
+    margin-top: 25%;
+    z-index: 99999;
+    position: relative;
+}
+.time span{
+    font-size: 1em;
+    color: #999;
+}
+.post-underline{
+    width: 90%;
+    margin: 0 auto;
+}
+.post-content{
+    width: 90%;
+    margin: 2% auto;
+    line-height: 1.5em;
+    font-size: #999;
+}
+.post-image{
+    width: 90%;
+    margin: 2% auto;
+}
+.post-image img{
+    width: 100%;
+}
+footer{
+    z-index: 9999;
+}
+.buttons{
+    padding-left: 10%;
+}
+.post-button{
+    font-size: 1.2em;
+}
+.like-button{
+    margin-right: 3%;
+}
+.post-icons{
+    margin-right: 1%;
+}

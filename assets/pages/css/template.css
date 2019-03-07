@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: #f0f0f0;
+}
+.a4-size-paper{
+    background: #fff;
+    height: 40cm;
+    width: 21cm;
+    margin: 1cm auto;
+    -webkit-box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+            box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    
+}
+
+@media print{
+    body, .a4-size-paper{
+        margin: 0;
+        -webkit-box-shadow: 0 0 0 rgb(255, 255, 255);
+                box-shadow: 0 0 0 rgb(255, 255, 255);
+    }
+}
+.details{
+    padding: 4% 0;
+}
+.margin-bottom{
+    margin-bottom: 4%;
+}
+.margin-subheading{
+    margin-bottom: 2%;
+}
+.name{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.personal-details{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.a4-size-paper .details .underline{
+    width: 80%;
+    height: 2px;
+    margin: 2% auto;
+    background: #000;
+}
+.professional-details{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+p{
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family:'Roboto', sans-serif; 
+}
+.heading{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.bullets{
+    font-size: 0.6em;
+}
+.technical-skills-heading{
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+.technical-skills-subcontent {
+    padding-left: 4%;
+    margin-bottom: 2.5%;
+}
+.skill{
+    margin-bottom: 4%;
+}
+.education{
+    margin-bottom: 4%;
+}
+.education-subcontent{
+    margin-bottom: 1%;
+    padding-left: 4%;
+}
+
+.co-curricular-activities .education-subcontent, .extracurricular-activities .education-subcontent{
+    display: inline-block;
+    padding: 0;
+}
+
+
+.right-part {
+    width: 47.5%;
+}
+
+.left-part {
+    width: 47.5%;
+    margin-right: 5%;
+}
+
+body .download-btn{
+    font-size: 1.2em;
+    display: inline;
+    margin-right: 2%;
+}
+body form .docx-btn{
+    display: inline;
+    background: none;
+    font-size: 1.2em;;
+}
+/*
+.back-btn{
+  font-size: 20px;  
+}*/
